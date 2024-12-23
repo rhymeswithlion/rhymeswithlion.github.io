@@ -1,0 +1,12 @@
+{
+  "hash": "bb79f0c224520d3788a1af7a3a87486e",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Welcome to i.stolethis.website\"\nauthor: \"Brian Cruz\"\ndate: \"2024-12-15\"\ncategories:\n---\n\n\nI'm trying out Quarto to make a website that allows for writing posts involving math and code.\n\nFor example, I can write equations like this:\n\n$$\n\\sum_{i=1}^{n} i^2 = \\frac{n(n+1)(2n+1)}{6}\n$$\n\nAnd I can write code like this:\n\n::: {#1deae08b .cell execution_count=1}\n``` {.python .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-display execution_count=3}\n```\n2\n```\n:::\n:::\n\n\nI can also use packages such as matplotlib and numpy.\n\n::: {#3ad55793 .cell execution_count=2}\n``` {.python .cell-code}\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-3-output-1.png){width=590 height=411}\n:::\n:::\n\n\nNot bad!\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

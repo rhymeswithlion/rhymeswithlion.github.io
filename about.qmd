@@ -1,0 +1,15 @@
+---
+title: "About"
+image: image.jpg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/rhymeswithlionsf
+    - icon: github
+      text: Github
+      href: https://github.com/rhymeswithlion
+
+---
+

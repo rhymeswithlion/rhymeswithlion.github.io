@@ -1,0 +1,34 @@
+project:
+  type: website
+  # output-dir: docs
+
+toc: true
+
+include-in-header:
+  - text: |
+      <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+      <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+      <link rel="shortcut icon" href="/favicon.ico" />
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+      <link rel="manifest" href="/site.webmanifest" />
+
+website:
+  title: "i.stolethis.website"
+  # repo-url: https://github.com/rhymeswithlion/rhymeswithlion.github.io
+  # issue-url: https://github.com/rhymeswithlion/rhymeswithlion.github.io/issues/new/choose
+  # repo-actions:
+  #   - edit
+  #   - issue      
+  navbar:  # The bar at the top of the page
+    search: true
+    background: secondary
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
+footer: Hello

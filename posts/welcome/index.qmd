@@ -1,0 +1,35 @@
+---
+title: "Welcome to i.stolethis.website"
+author: "Brian Cruz"
+date: "2024-12-15"
+categories:
+---
+
+I'm trying out Quarto to make a website that allows for writing posts involving math and code.
+
+For example, I can write equations like this:
+
+$$
+\sum_{i=1}^{n} i^2 = \frac{n(n+1)(2n+1)}{6}
+$$
+
+And I can write code like this:
+
+```{python}
+1 + 1
+```
+
+I can also use packages such as matplotlib and numpy.
+
+```{python}
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+plt.plot(x, y)
+plt.show()
+```
+
+Not bad!

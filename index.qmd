@@ -1,0 +1,21 @@
+---
+title: "Brian stole this website"
+image: image.jpg
+about:
+  template: jolla
+listing:
+  contents:  # The directories/files the include in the file listing
+    - posts
+  sort: "date desc"
+  type: table # default, table, grid, custom
+  # categories: true  # Show categories on the right side.
+  sort-ui: false
+  filter-ui: true  # Show a client-side filter UI element
+  table-hover: true  # Hightlight rows in the table when hovering over them
+  # categories: cloud
+
+page-layout: full  # article, custom, full
+# title-block-banner: true
+
+---
+
