@@ -1,0 +1,45 @@
+{
+  "name": "rhymeswithlion.github.io",
+  "root": "writing/rhymeswithlion.github.io",
+  "sourceRoot": "writing/rhymeswithlion.github.io",
+  "projectType": "application",
+  "targets": {
+    "git-clone": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "git clone https://github.com/rhymeswithlion/rhymeswithlion.github.io.git .",
+        "cwd": "writing/rhymeswithlion.github.io"
+      }
+    },
+    "preview": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "make preview",
+        "cwd": "writing/rhymeswithlion.github.io"
+      }
+    },
+    "render": {
+      "executor": "nx:run-commands",
+      "outputs": ["{workspaceRoot}/writing/rhymeswithlion.github.io/_site"],
+      "options": {
+        "command": "make render",
+        "cwd": "writing/rhymeswithlion.github.io"
+      }
+    },
+    "setup": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "make .venv",
+        "cwd": "writing/rhymeswithlion.github.io"
+      }
+    },
+    "clean": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "rm -rf _site _freeze .venv",
+        "cwd": "writing/rhymeswithlion.github.io"
+      }
+    }
+  },
+  "tags": ["scope:writing", "type:website", "type:quarto"]
+}
