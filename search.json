@@ -1,16 +1,23 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Brian stole this website",
-    "section": "",
-    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nDec 15, 2024\n\n\nWelcome to i.stolethis.website\n\n\nBrian Cruz\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Welcome to i.stolethis.website",
     "section": "",
     "text": "I’m trying out Quarto to make a website that allows for writing posts involving math and code.\nFor example, I can write equations like this:\n\\[\n\\sum_{i=1}^{n} i^2 = \\frac{n(n+1)(2n+1)}{6}\n\\]\nAnd I can write code like this:\n\n1 + 1\n\n2\n\n\nI can also use packages such as matplotlib and numpy.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)\nplt.show()\n\n\n\n\n\n\n\n\nNot bad!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Brian stole this website",
+    "section": "",
+    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nOct 12, 2025\n\n\nAnd we’re back\n\n\nBrian Cruz\n\n\n\n\nDec 15, 2024\n\n\nWelcome to i.stolethis.website\n\n\nBrian Cruz\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/welcome/second-post.html",
+    "href": "posts/welcome/second-post.html",
+    "title": "And we’re back",
+    "section": "",
+    "text": "This was down for a while, but now we’re back up. Using quarto!"
   }
 ]
