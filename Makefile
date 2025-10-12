@@ -6,3 +6,11 @@
 	@echo "Virtual environment ready and requirements installed."
 	@echo "To activate this environment, use:"
 	@echo "source ./.venv/bin/activate"
+
+preview:
+	source ./.venv/bin/activate && \
+	quarto preview
+
+render:
+	source ./.venv/bin/activate && \
+	quarto render
