@@ -1,0 +1,8 @@
+---
+title: "And we're back"
+author: "Brian Cruz"
+date: "2025-10-12"
+categories:
+---
+
+This was down for a while, but now we're back up. Using quarto!
