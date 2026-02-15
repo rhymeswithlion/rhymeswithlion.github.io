@@ -1,16 +1,13 @@
 .venv:
-	@if [ ! -f ./.venv/bin/python ]; then \
-		uv venv ./.venv --python 3.11; \
-	fi
-	uv pip install -r requirements.txt
-	@echo "Virtual environment ready and requirements installed."
+	uv sync
+	@echo "Virtual environment ready and dependencies synced (includes quarto-cli)."
 	@echo "To activate this environment, use:"
-	@echo "source ./.venv/bin/activate"
+	@echo "  source ./.venv/bin/activate"
 
-preview:
-	source ./.venv/bin/activate && \
-	quarto preview
+preview: .venv
+	source ./.venv/bin/activate && quarto preview
 
-render:
-	source ./.venv/bin/activate && \
-	quarto render
+render: .venv
+	source ./.venv/bin/activate && quarto render
+
+.PHONY: .venv preview render
