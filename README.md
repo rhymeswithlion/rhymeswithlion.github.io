@@ -4,7 +4,7 @@ Personal blog and site (i.stolethis.website), built with [Quarto](https://quarto
 
 ## Setup
 
-- **Python 3.11+** and **[uv](https://docs.astral.sh/uv/)** (recommended) or pip.
+- **Python 3.12+** and **[uv](https://docs.astral.sh/uv/)** (recommended) or pip.
 - The project uses **uv** for the virtual environment and dependencies (including Quarto via the `quarto-cli` pip package).
 
 Create the virtual environment and install dependencies:
